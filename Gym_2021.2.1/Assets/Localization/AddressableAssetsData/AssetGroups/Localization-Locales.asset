@@ -15,21 +15,26 @@ MonoBehaviour:
   m_GroupName: Localization-Locales
   m_Data:
     m_SerializedData: []
-  m_GUID: 0f9e72807b8446c438b3f47d78ec4749
+  m_GUID: 5856761280b5f194f9ced31cc0316bc7
   m_SerializeEntries:
-  - m_GUID: 855793d367fb7c447811f35f72470dba
-    m_Address: English (en)
+  - m_GUID: cafaec4910206374e97b88526eccd69e
+    m_Address: Japanese (ja)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: e49a4b47aa88ff44080a6a3df1b1dfc1
+  - m_GUID: 4a8657cb30803114392cdd6a9dd4af09
     m_Address: French (fr)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
+  - m_GUID: e89d100412603ca4293a554a85bbf484
+    m_Address: English (en)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 924d5e2943f9705498e37c887a786689, type: 2}
+  m_Settings: {fileID: 11400000, guid: bbc2e3150af437d42abee4730407baa6, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: a7754e5df2fe51147ae5dc28b70fca56, type: 2}
-    - {fileID: 11400000, guid: 9ccf6277f3be08c4ea3ddff31931f511, type: 2}
+    - {fileID: 11400000, guid: eb5f0f0c74bf6fc438f2722522e50315, type: 2}
+    - {fileID: 11400000, guid: 0d09a11fbc15b3642bbf53385ac6c7d4, type: 2}
