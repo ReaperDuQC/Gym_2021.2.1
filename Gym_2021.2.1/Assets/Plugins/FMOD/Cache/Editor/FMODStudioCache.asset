@@ -1,5 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9147083686730107748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Menu
+  Guid:
+    Data1: -703929327
+    Data2: 1230932231
+    Data3: -1142756475
+    Data4: -276426059
+  Banks:
+  - {fileID: 481303708832338375}
+  - {fileID: -492186662047275136}
+  - {fileID: -8439342788912140796}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 253361
 --- !u!114 &-9113630065414186999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,6 +172,26 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &-8439342788912140796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master_JP.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../Desktop/Programmeur_de_Jeux_Video/Assets Unity/Audios/Gym_2021.2.1_FMOD_studio/Build/Desktop/Master_JP.bank
+  Name: Master_JP
+  StudioPath: bank:/Master_JP
+  lastModified: 637723588301414476
+  FileSizes:
+  - Name: Desktop
+    Value: 3264288
   Exists: 1
 --- !u!114 &-8430597672638341773
 MonoBehaviour:
@@ -991,6 +1040,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4038247620941366355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master_EN.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../Desktop/Programmeur_de_Jeux_Video/Assets Unity/Audios/Gym_2021.2.1_FMOD_studio/Build/Desktop/Master_EN.strings.bank
+  Name: Master_EN.strings
+  StudioPath: bank:/Master_EN.strings
+  lastModified: 637723588300804347
+  FileSizes:
+  - Name: Desktop
+    Value: 820
+  Exists: 1
 --- !u!114 &-3849473972574421744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1567,6 +1636,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 38624
   Exists: 1
+--- !u!114 &-492186662047275136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master_FR.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../Desktop/Programmeur_de_Jeux_Video/Assets Unity/Audios/Gym_2021.2.1_FMOD_studio/Build/Desktop/Master_FR.bank
+  Name: Master_FR
+  StudioPath: bank:/Master_FR
+  lastModified: 637723588301054478
+  FileSizes:
+  - Name: Desktop
+    Value: 3264288
+  Exists: 1
 --- !u!114 &-392352724586204753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1629,54 +1718,19 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 4448846084051966670}
-  - {fileID: 6713724003662500707}
-  - {fileID: -2987163658495033765}
-  - {fileID: -3659121633258335360}
-  - {fileID: 3844009771146522852}
-  - {fileID: 8644824025825613713}
-  - {fileID: -606471061901922042}
-  - {fileID: -857827985205133917}
-  - {fileID: -2644747269851017919}
-  - {fileID: 6821583663882983086}
-  - {fileID: -392352724586204753}
+  - {fileID: -4038247620941366355}
+  - {fileID: 481303708832338375}
+  - {fileID: -492186662047275136}
+  - {fileID: -8439342788912140796}
   EditorEvents:
-  - {fileID: 1969327996595207378}
-  - {fileID: 4924951166565999346}
-  - {fileID: -165812384965989879}
-  - {fileID: -6032563168365272262}
-  - {fileID: -4522659249384970732}
-  - {fileID: -7857501222222857187}
-  - {fileID: 4055875207710674077}
-  - {fileID: -3621617248825333663}
-  - {fileID: -7905294854508578843}
-  - {fileID: -4843370951082541670}
-  - {fileID: -3849473972574421744}
-  - {fileID: -8430597672638341773}
-  - {fileID: 7476893978877362549}
-  - {fileID: -1311087622654608655}
-  - {fileID: 7786650814025265756}
-  - {fileID: 3906023146486975641}
-  - {fileID: 5360964283865525119}
-  - {fileID: 5689628218507910171}
-  - {fileID: 6389068335488572792}
-  - {fileID: -5712556818987509956}
-  - {fileID: 4850145046726765637}
-  - {fileID: 430333904886766159}
-  - {fileID: -2725538821923017238}
-  - {fileID: -6141906819176204749}
-  - {fileID: 1885573704387140835}
-  - {fileID: 516344560805127464}
-  - {fileID: -6459008341849495800}
-  - {fileID: 6154278841659467805}
-  - {fileID: -5447550436964419715}
-  - {fileID: 8139328957856656549}
+  - {fileID: -9147083686730107748}
+  - {fileID: 7189510675320988676}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2644747269851017919}
+  - {fileID: 481303708832338375}
   StringsBanks:
-  - {fileID: -857827985205133917}
-  cacheTime: 637717975499254894
+  - {fileID: -4038247620941366355}
+  cacheTime: 637723588301434480
   cacheVersion: 9
 --- !u!114 &269350705493018759
 MonoBehaviour:
@@ -1730,6 +1784,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &481303708832338375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master_EN.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../Desktop/Programmeur_de_Jeux_Video/Assets Unity/Audios/Gym_2021.2.1_FMOD_studio/Build/Desktop/Master_EN.bank
+  Name: Master_EN
+  StudioPath: bank:/Master_EN
+  lastModified: 637723588300784389
+  FileSizes:
+  - Name: Desktop
+    Value: 3264288
+  Exists: 1
 --- !u!114 &516344560805127464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2423,8 +2497,7 @@ MonoBehaviour:
     Data2: 1106302555
     Data3: 130402976
     Data4: 239065686
-  Banks:
-  - {fileID: 3844009771146522852}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2705,6 +2778,35 @@ MonoBehaviour:
   - Grass
   - Wood Floor
   Exists: 0
+--- !u!114 &7189510675320988676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Dialogue
+  Guid:
+    Data1: 1621372140
+    Data2: 1172775332
+    Data3: 430600887
+    Data4: 551565561
+  Banks:
+  - {fileID: 481303708832338375}
+  - {fileID: -492186662047275136}
+  - {fileID: -8439342788912140796}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4063
 --- !u!114 &7476893978877362549
 MonoBehaviour:
   m_ObjectHideFlags: 0
