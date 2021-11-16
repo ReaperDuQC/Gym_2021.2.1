@@ -3,7 +3,52 @@ guid: 76f505d74c9f17047a97044344aec045
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 2d8e8361adc9a7b4fb7fdc10c4c2cf0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal1
+    second: {fileID: 2100000, guid: 3e4f2489d10e2b346b0db2fc09bfed42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal2
+    second: {fileID: 2100000, guid: b7bc366ea273c3742b5ee63f6c6579d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal3
+    second: {fileID: 2100000, guid: 8a11ef638f154e84789d2fe7d31ebcb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal4
+    second: {fileID: 2100000, guid: 2f308b355637a144aaceb0e77f069302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pedras
+    second: {fileID: 2100000, guid: 50f4d9ed8cbb7ab40a8910b63ca740f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilar
+    second: {fileID: 2100000, guid: 348a8798ca277184fbbeb01b323e8cdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilha_Cristal
+    second: {fileID: 2100000, guid: ea0709ffb4eb7fb4d861bbcbd2dbd274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Portal
+    second: {fileID: 2100000, guid: efbaa164c0132f446b9b725e9dc6e096, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

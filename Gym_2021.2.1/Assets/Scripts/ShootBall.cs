@@ -37,7 +37,7 @@ public class ShootBall : MonoBehaviour
             ball.transform.position = transform.position;
             var rb = ball.GetComponent<Rigidbody>();
             rb.velocity = Vector3.zero;
-            rb.AddForce(Camera.main.transform.forward.normalized * m_force);
+            rb.AddForce(transform.forward.normalized * m_force);
 
             StartCoroutine(Release(ball));
         }
